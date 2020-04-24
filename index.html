@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome App</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body class="container">
+    <div class="space"></div>
+
+    <div class="title"> The Palindrome App </div>
+    <div class="description"> Palindrome: A word that is the same when spelled backwards </div>
+    <div class= "form"> 
+        <form name="form">
+            <label>Enter Your Word:</label><br><br>
+            <input type="text" name="inputbox" value=""><br><br>
+
+            <input type="button" name="button" Value="Submit" onClick= isPalindrome(this.form)></input>
+        </form>
+    </div>
+
+    <div class="palList">
+        Palindromes
+        <ul id="list1">
+           
+        </ul>
+    </div>
+
+    <div class="noPalList">
+        NOT Palindrome
+        <ul id="list2">
+
+
+        </ul>
+
+
+
+    </div>
+
+
+<div class="background1"></div>
+
+<div class="background2"></div>
+
+</body>
+</html>
